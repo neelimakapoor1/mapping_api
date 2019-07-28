@@ -2,7 +2,7 @@
 
 Overview
 ---------
-This TypeScript API allows users to display outdoor and indoor maps in their progressive web-applications. Users can switch between 2D maps and 3D maps. 2D maps are displayed using Google Maps API and 3D maps are displayed using Cesium API.
+This TypeScript API allows users to display outdoor and indoor maps in a web-application. Users can switch between 2D maps and 3D maps. 2D maps are displayed using Google Maps API and 3D maps are displayed using Cesium API.
 
 
 Description of Classes
