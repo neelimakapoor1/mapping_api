@@ -8,7 +8,7 @@ This TypeScript API allows users to display outdoor and indoor maps in a web-app
 Description of Classes
 -----------------------
 
-Map Class
+**Map Class**
 Create new instance of this class to embed map-panel in a web-application with or without google-maps in background. 
 - Method addLayer allows user to display geojson or WMS layer. WMS layers are rendered by GeoServer on server-side. 
 - Method addEventListener allows user to register touch and mouse events on map.
@@ -18,29 +18,27 @@ Create new instance of this class to embed map-panel in a web-application with o
 - Zoom/ pan methods are available to navigate on map
 - Routing methods are also available on demand.
 
-Layer Class
+**Layer Class**
 Layer/overlay added on map. Currently it allows user to add vector (GeoJSON) and raster (WMS) layers. 
 - Method getFeaturesByAttributes allows user to search features on map based on their attributes/properties.
 
-Feature Class
+**Feature Class**
 A single vector-layer added on map, having geometry and attributes. E.g.: Building footprint having name and UID.
 
-IndoorMap Class
+**IndoorMap Class**
 Indoor-map is the indoor floor-wise unit-layout added on map. It comprises of building-footprint layer, floor layer, unit layer, furniture layer etc. 
 - Method switchFloor allows user to switch from one floor to another.
 
-LatLon Class
+**LatLon Class**
 Point location with latitude and longitude
 
-
-LayerDataSource Class
+**LayerDataSource Class**
 Datasource information of layer.
 
-Style Class
+**Style Class**
 Styles to be applied to vector features on map.
 
-
-IndoorMapDataSource Class
+**IndoorMapDataSource Class**
 Datasource information of all layers on indoor-map.
 
 
